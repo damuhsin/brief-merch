@@ -10,11 +10,39 @@
   <h1>Brief Desain Merch</h1>
   <p>Isi form di bawah untuk mengajukan desain merch.</p>
 
-  <form id="briefForm">
-    <input name="brand" placeholder="Nama Brand" required />
-    <input type="file" name="images" multiple accept="image/*" />
-    <button type="submit">Kirim Brief</button>
-  </form>
+    <form id="briefForm">
+
+    <input
+        name="brand"
+        placeholder="Nama Brand / Klien"
+        required
+    />
+
+    <input
+        name="contact"
+        placeholder="Email / WhatsApp"
+        required
+    />
+
+    <textarea
+        name="concept"
+        placeholder="Konsep singkat desain"
+        required
+    ></textarea>
+
+    <input
+        type="file"
+        id="images"
+        accept="image/*"
+        multiple
+    />
+
+    <button type="submit">
+        Kirim Brief
+    </button>
+
+    </form>
+
 
   <script src="script.js"></script>
 </body>
